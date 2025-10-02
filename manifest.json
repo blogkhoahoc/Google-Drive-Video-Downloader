@@ -1,0 +1,49 @@
+{
+  "name": "Tool download video bị chặn trên Google Drive",
+  "version": "2.5.0",
+  "manifest_version": 3,
+  "description": "Tool bắt link tải video bị chặn trên Google Drive",
+
+  "permissions": ["debugger", "tabs", "scripting", "webNavigation", "downloads"],
+  "host_permissions": ["https://drive.google.com/*"],
+
+  "background": { "service_worker": "background.js" },
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon120.png"
+  },
+
+  "action": {
+    "default_title": "Download video bị chặn trên Google Drive",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/fab.png",
+        "icons/icon16.png",
+        "icons/icon32.png",
+        "icons/icon48.png",
+        "icons/icon120.png"
+      ],
+      "matches": ["https://drive.google.com/*"]
+    }
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://drive.google.com/*"],
+      "js": ["overlay.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
