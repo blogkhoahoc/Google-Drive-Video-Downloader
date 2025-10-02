@@ -29,3 +29,9 @@ Mục tiêu chính là:
 4. Lúc đấy trình duyệt sẽ mở tab mới có định dạng: "https://drive.google.com/file/d/..."
 5. Bấm vào icon extension (Góc dưới bên phải màn hình) và chọn chất lượng muốn download. Nếu không bắt được link thì reload (F5) trang hoặc làm lại từ bước 3.
 
+---
+
+## Tác giá:
+**Facebook**: https://facebook.com/adminbkh
+**Blog khóa học miễn phí**: https://tailieusharefree.blogspot.com/
+
