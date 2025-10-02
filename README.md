@@ -32,6 +32,6 @@ Mục tiêu chính là:
 ---
 
 ## Tác giá:
-**Facebook**: https://facebook.com/adminbkh.
+**Facebook**: https://facebook.com/adminbkh  
 **Blog khóa học miễn phí**: https://tailieusharefree.blogspot.com/
 
