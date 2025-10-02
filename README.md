@@ -31,7 +31,7 @@ Mục tiêu chính là:
 
 ---
 
-## Tác giá:
+## Tác giả:
 **Facebook**: https://facebook.com/adminbkh  
 **Blog khóa học miễn phí**: https://tailieusharefree.blogspot.com/
 
