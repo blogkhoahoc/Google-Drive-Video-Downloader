@@ -2,7 +2,7 @@
 // gửi body về overlay, và hỗ trợ tải xuống qua chrome.downloads.download.
 
 const PROTOCOL_VERSION = "1.3";
-const HAS_PLAYBACK = (u) => (u || "").includes("playback?key");
+const HAS_PLAYBACK = (u) => (u || "").includes("playback?auditContext");
 // Khớp cả 2 dạng URL: /file/d/... và /drive/u/{n}/file/d/...
 const IS_DRIVE_VIEWER = (u) =>
   typeof u === "string" &&
@@ -172,3 +172,4 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     return true; // giữ kênh mở để sendResponse async
   }
 });
+
